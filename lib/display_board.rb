@@ -1,4 +1,4 @@
- def display_board(board)
+ def display_board(row)
 
 puts "   |   |   \n-----------\n   |   |   \n-----------\n   |   |   \n"
 
