@@ -2,10 +2,10 @@ def display_board(board)
 
   puts " O |   |   "
   puts "-----------"
-  puts "   |   |   "
+  puts "   | X |   "
   puts "-----------"
   puts "   |   |   "
 
 end
-board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
