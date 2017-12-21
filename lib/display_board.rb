@@ -1,11 +1,11 @@
 def display_board(board)
 
-  puts " X |   |   "
+  puts "   |   | O "
   puts "-----------"
-  puts "   | X |   "
+  puts "   | O |   "
   puts "-----------"
-  puts "   |   | X "
+  puts " O |   |   "
 
 end
-board = ["X", " ", " ", "X", " ", " ", "X", " ", " "]
+board = [" ", " ", "O", " ", "O", " ", " ", " ", "O"]
 display_board(board)
